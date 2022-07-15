@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    font-family: 'Helvetica', sans-serif;
+}
+
+span {
+    font-family: 'Anton', sans-serif;
+
+    letter-spacing: 5px;
+    background-color: #e0ff00;
+    padding: 0 0.4rem;
+    font-style: italic;
+}
+
+.parrafo {
+    font-size: 20px;
+}
+
+.verde {
+    color: green;
+}
+
+.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form .box {
+    margin-bottom: 10px;
+}
+
+form .box input {
+   
+    padding: 0px 5px;
+    font-size: 18px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    height: 30px;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
